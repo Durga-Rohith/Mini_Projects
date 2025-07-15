@@ -16,9 +16,9 @@ public class rockpaperscissor{
     String computerChoice = computer[rd.nextInt(3)];
 
     if(choice.equals("rock")&&computerChoice.equals("scissor")||choice.equals("scissor")&&computerChoice.equals("paper")||choice.equals("paper")&&computerChoice.equals("rock")){
-      System.out.println(choice+" beats "+computerChoice+ " You Won");
+      System.out.println(choice+" beats "+computerChoice+ " You Won!");
     }else if(choice.equals("rock")&&computerChoice.equals("paper")||choice.equals("scissor")&&computerChoice.equals("rock")||choice.equals("paper")&&computerChoice.equals("scissor")){
-      System.out.println(computerChoice+" beats "+choice+" You lost");
+      System.out.println(computerChoice+" beats "+choice+" You lost!");
     }else if(choice.equals(computerChoice)){
       System.out.println(computerChoice+" "+choice+" It's a Draw");
 
@@ -26,7 +26,7 @@ public class rockpaperscissor{
     play =sc.nextLine().toLowerCase(); 
   }
   }while(play.equals("yes"));
-  System.out.println("Thank you GOODNIGHT!!!!");
+  System.out.println("Thank you !");
   sc.close();
 }
 }
