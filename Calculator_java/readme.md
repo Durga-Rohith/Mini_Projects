@@ -1,7 +1,3 @@
-Here’s a professional, well-structured, and polished README.md content for your Java Calculator mini project that you can directly upload to your GitHub repo:
-
----
-
 # 📟 Java CLI Calculator
 
 A simple and interactive command-line calculator built using Java. This mini project allows users to enter a list of numbers and perform basic arithmetic operations such as addition, subtraction, multiplication, and division. Ideal for beginners learning Java, object-oriented programming, or console-based applications.
